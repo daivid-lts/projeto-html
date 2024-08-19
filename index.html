@@ -5,43 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <title>Password Generator</title>
+    <title>Mobile Tab Navigation</title>
   </head>
   <body>
-    <div class="container">
-      <h2>Password Generator</h2>
-      <div class="result-container">
-        <span id="result"></span>
-        <button class="btn" id="clipboard">
-          <i class="far fa-clipboard"></i>
-        </button>
-      </div>
-      <div class="settings">
-        <div class="setting">
-          <label>Password Length</label>
-          <input type="number" id="length" min="4" max="20" value="20">
-        </div>
-        <div class="setting">
-          <label>Include uppercase letters</label>
-          <input type="checkbox" id="uppercase" checked>
-        </div>
-        <div class="setting">
-          <label>Include lowercase letters</label>
-          <input type="checkbox" id="lowercase" checked>
-        </div>
-        <div class="setting">
-          <label>Include numbers</label>
-          <input type="checkbox" id="numbers" checked>
-        </div>
-        <div class="setting">
-          <label>Include symbols</label>
-          <input type="checkbox" id="symbols" checked>
-        </div>
-      </div>
-
-      <button class="btn btn-large" id="generate">
-        Generate Password
-      </button>
+    <div class="phone">
+      <img src='/casas-modernas-1200x900.jpg'alt="home" class="content show">
+      <img src="writing.jpg" alt="work" class="content">
+      <img src="uma-caneta-esta-em-cima-de-um-caderno-com-numeros_24640-87403 (1).avif"alt="blog" class="content">
+      <img src="depositphotos_101092312-stock-photo-friends-having-coffee-together.jpg" alt="about" class="content">
+      <nav>
+        <ul>
+          <li class="active">
+            <i class="fas fa-home"></i>
+            <p>Home</p>
+          </li>
+          <li>
+            <i class="fas fa-box"></i>
+            <p>Work</p>
+          </li>
+          <li>
+            <i class="fas fa-book-open"></i>
+            <p>Blog</p>
+          </li>
+          <li>
+            <i class="fas fa-users"></i>
+            <p>About Us</p>
+          </li>
+        </ul>
+      </nav>
     </div>
     <script src="script.js"></script>
   </body>
